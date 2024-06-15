@@ -15,6 +15,10 @@
 
  .menu__link {
    @include link;
+
+   &:active  {
+    background-color: #f0ebff;
+  }
  }
 
  .menu__link-text {
@@ -59,6 +63,11 @@
   .menu__link {
     display: flex;
     padding: 30px 15px;
+
+    &:hover,
+    &:focus {
+      color: #7859cf;
+    }
   }
 
   .menu__link-text {
