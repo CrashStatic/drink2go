@@ -3,3 +3,33 @@
   display: flex;
   align-items: center;
 }
+
+.logo__text {
+  display: none;
+}
+
+@media (min-width: $tablet-width) {
+  .logo__image {
+    width: 82px;
+    height: 36px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .logo__image {
+    width: 170px;
+    height: 36px;
+  }
+
+  .logo__text {
+    display: flex;
+    font-size: 12px;
+    line-height: 133%;
+    text-transform: none;
+    width: 126px;
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 2px;
+    letter-spacing: 0.07em;
+  }
+}

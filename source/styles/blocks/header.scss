@@ -14,3 +14,9 @@
     width: 728px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .header {
+    width: 1360px;
+  }
+}

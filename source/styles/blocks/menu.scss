@@ -10,8 +10,6 @@
 
  .menu__item {
    display: flex;
-   width: 60px;
-   height: 60px;
    align-items: center;
  }
 
@@ -35,12 +33,40 @@
 
  @media (min-width: $tablet-width) {
   .menu__item {
-    height: 80px;
     align-items: center;
     justify-content: center;
   }
 
    .menu__link {
-     padding: 10px;
+     padding: 31px 22px;
    }
+ }
+
+ @media (min-width: $desktop-width) {
+  .menu__list {
+    min-width: 300px;
+    justify-content: end;
+  }
+
+  .menu__item {
+    max-width: 130px;
+  }
+
+  .menu__item:not(:last-child) {
+    margin-right: 25px;
+  }
+
+  .menu__link {
+    display: flex;
+    padding: 30px 15px;
+  }
+
+  .menu__link-text {
+    display: flex;
+    margin: 0;
+    font-weight: 500;
+    margin-left: 8px;
+    line-height: 133%;
+    margin-right: 5px;
+  }
  }
