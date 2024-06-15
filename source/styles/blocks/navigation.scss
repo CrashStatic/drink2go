@@ -34,7 +34,7 @@
     color: #7859cf;
   }
 
-  &:active  {
+  &:active {
     color: #7859cf;
     background-color: #f0ebff;
   }
@@ -50,12 +50,12 @@
   border: none;
   padding: 0;
 
-  &:active  {
+  &:active {
     background-color: #f0ebff;
   }
- }
+}
 
- .navigation--closed .navigation__toggle::before {
+.navigation--closed .navigation__toggle::before {
   content: "";
   position: absolute;
   top: 25px;
@@ -164,7 +164,7 @@
   }
 }
 
- @media (min-width: $desktop-width) {
+@media (min-width: $desktop-width) {
   .navigation__container {
     min-width: 882px;
   }
@@ -172,4 +172,4 @@
   .navigation__item:not(:last-child) {
     margin-right: 20px;
   }
- }
+}
