@@ -1,0 +1,5 @@
+.logo {
+  @include link;
+  display: flex;
+  align-items: center;
+}
