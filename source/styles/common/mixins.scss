@@ -12,3 +12,16 @@
   padding: 0;
   list-style: none;
 }
+
+@mixin button {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #7859cf;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+}

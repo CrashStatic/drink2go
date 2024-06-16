@@ -1,0 +1,62 @@
+.hero {
+  margin: 0 auto;
+  background-color: #f3ebe1;
+}
+
+.hero__button-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__button {
+  padding: 0;
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
+}
+
+.hero__button-image {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: $mobile-width) {
+  .hero {
+    position: relative;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .hero__button-container {
+    top: 80px;
+    left: 0;
+    height: 640px;
+  }
+
+  .hero__button {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .hero {
+    position: relative;
+  }
+
+  .hero__button-container {
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+
+  .hero__button {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}

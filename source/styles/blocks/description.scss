@@ -1,0 +1,127 @@
+.description {
+  margin-top: 11px;
+  text-align: center;
+}
+
+.description__promo {
+  margin-bottom: 4px;
+}
+
+.description__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 133%;
+  letter-spacing: 0.07em;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.description__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  margin: 0;
+  margin-bottom: 20px;
+  letter-spacing: 0.07em;
+}
+
+.description__price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description__price-button {
+  @include button;
+  padding: 10px 24px;
+  letter-spacing: 0.08em;
+}
+
+.description__price-old {
+  margin: 0;
+  font-size: 16px;
+  line-height: 200%;
+  text-decoration: line-through;
+  color: #7859cf;
+  margin-right: 6px;
+  letter-spacing: 0.07em;
+}
+
+.description__price-new {
+  margin: 0;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 160%;
+  margin-right: 20px;
+  letter-spacing: 0.07em;
+}
+
+@media (min-width: $tablet-width) {
+  .description {
+    margin-top: 0;
+  }
+
+  .description__title {
+    max-width: 608px;
+    font-size: 56px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+  }
+
+  .description__promo {
+    margin-bottom: 8px;
+  }
+
+  .description__text {
+    font-size: 20px;
+    line-height: 160%;
+    max-width: 608px;
+    margin: 0 auto;
+    margin-bottom: 21px;
+  }
+
+  .description__price-old {
+    margin-right: 4px;
+  }
+
+  .description__price-new {
+    margin-right: 23px;
+  }
+
+  .description__price-button {
+    font-size: 16px;
+    line-height: 150%;
+    padding: 8px 18px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .description {
+    padding-top: 152px;
+    text-align: start;
+  }
+
+  .description__promo {
+    margin-bottom: 6px;
+  }
+
+  .description__title {
+    max-width: 625px;
+    font-size: 56px;
+    letter-spacing: 0.08em;
+  }
+
+  .description__text {
+    margin-bottom: 43px;
+  }
+
+  .description__price {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .description__price-old {
+    margin-top: 2px;
+  }
+}
