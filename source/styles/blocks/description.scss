@@ -35,6 +35,19 @@
   @include button;
   padding: 10px 24px;
   letter-spacing: 0.08em;
+
+  &:hover,
+  &:focus {
+    background-color: #9070ec;
+  }
+
+  &:active {
+    background-color: #593cac;
+  }
+
+  &:disabled {
+    background-color: #bdbdbd;
+  }
 }
 
 .description__price-old {
@@ -123,5 +136,9 @@
 
   .description__price-old {
     margin-top: 2px;
+  }
+
+  .description__price-new {
+    margin-right: 24px;
   }
 }

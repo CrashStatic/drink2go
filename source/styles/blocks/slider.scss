@@ -8,6 +8,14 @@
   @include list;
 }
 
+.slider__item {
+  display: none;
+}
+
+.slider__item--active {
+  display: block;
+}
+
 .slider__pagination {
   display: none;
 }
@@ -48,7 +56,7 @@
     margin-right: 30px;
   }
 
-  .slider__item {
+  .slider__item--active {
     display: flex;
   }
 
@@ -88,6 +96,15 @@
       position: absolute;
       top: 10px;
       left: 0;
+    }
+
+    &:hover::after,
+    &:focus::after {
+      background-color: #7859cf40;
+    }
+
+    &:active::after {
+      background-color: #7859cf;
     }
   }
 
