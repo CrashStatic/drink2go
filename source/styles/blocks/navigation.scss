@@ -121,7 +121,7 @@
 
 @media (min-width: $tablet-width) {
   .navigation {
-    margin-left: 0;
+    margin-left: 20px;
   }
 
   .navigation__toggle {
@@ -164,6 +164,10 @@
 }
 
 @media (min-width: $desktop-width) {
+  .navigation {
+    margin-left: 40px;
+  }
+
   .navigation__container {
     min-width: 882px;
   }
