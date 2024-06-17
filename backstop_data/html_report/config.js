@@ -4,7 +4,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\test-06\\drink2gotest-06_0_index_header_TEST-06_PP_0__0_desktop.png",
-        "test": "..\\bitmaps_test\\20240617-204120\\drink2gotest-06_0_index_header_TEST-06_PP_0__0_desktop.png",
+        "test": "..\\bitmaps_test\\20240618-001031\\drink2gotest-06_0_index_header_TEST-06_PP_0__0_desktop.png",
         "selector": "[data-test=\"header\"]",
         "fileName": "drink2gotest-06_0_index_header_TEST-06_PP_0__0_desktop.png",
         "label": "index header TEST-06. PP.",
@@ -20,9 +20,9 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 2.8880208333333335,
-          "misMatchPercentage": "2.89",
-          "analysisTime": 41
+          "rawMisMatchPercentage": 0.822048611111111,
+          "misMatchPercentage": "0.82",
+          "analysisTime": 21
         }
       },
       "status": "pass"
@@ -30,7 +30,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\test-06\\drink2gotest-06_0_index_header_TEST-06_PP_0__1_tablet.png",
-        "test": "..\\bitmaps_test\\20240617-204120\\drink2gotest-06_0_index_header_TEST-06_PP_0__1_tablet.png",
+        "test": "..\\bitmaps_test\\20240618-001031\\drink2gotest-06_0_index_header_TEST-06_PP_0__1_tablet.png",
         "selector": "[data-test=\"header\"]",
         "fileName": "drink2gotest-06_0_index_header_TEST-06_PP_0__1_tablet.png",
         "label": "index header TEST-06. PP.",
@@ -48,7 +48,7 @@ report({
           },
           "rawMisMatchPercentage": 2.44140625,
           "misMatchPercentage": "2.44",
-          "analysisTime": 17
+          "analysisTime": 33
         }
       },
       "status": "pass"
@@ -56,7 +56,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\test-06\\drink2gotest-06_0_index_header_TEST-06_PP_0__2_mobile.png",
-        "test": "..\\bitmaps_test\\20240617-204120\\drink2gotest-06_0_index_header_TEST-06_PP_0__2_mobile.png",
+        "test": "..\\bitmaps_test\\20240618-001031\\drink2gotest-06_0_index_header_TEST-06_PP_0__2_mobile.png",
         "selector": "[data-test=\"header\"]",
         "fileName": "drink2gotest-06_0_index_header_TEST-06_PP_0__2_mobile.png",
         "label": "index header TEST-06. PP.",
@@ -74,7 +74,7 @@ report({
           },
           "rawMisMatchPercentage": 1.7656249999999998,
           "misMatchPercentage": "1.77",
-          "analysisTime": 9
+          "analysisTime": 11
         }
       },
       "status": "pass"
@@ -82,7 +82,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\test-06\\drink2gotest-06_1_index_hero_TEST-06_PP_0__0_desktop.png",
-        "test": "..\\bitmaps_test\\20240617-204120\\drink2gotest-06_1_index_hero_TEST-06_PP_0__0_desktop.png",
+        "test": "..\\bitmaps_test\\20240618-001031\\drink2gotest-06_1_index_hero_TEST-06_PP_0__0_desktop.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "drink2gotest-06_1_index_hero_TEST-06_PP_0__0_desktop.png",
         "label": "index hero TEST-06. PP.",
@@ -98,9 +98,9 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.3561702458761282,
-          "misMatchPercentage": "0.36",
-          "analysisTime": 94
+          "rawMisMatchPercentage": 0.3939075630252101,
+          "misMatchPercentage": "0.39",
+          "analysisTime": 98
         }
       },
       "status": "pass"
@@ -108,7 +108,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\test-06\\drink2gotest-06_1_index_hero_TEST-06_PP_0__1_tablet.png",
-        "test": "..\\bitmaps_test\\20240617-204120\\drink2gotest-06_1_index_hero_TEST-06_PP_0__1_tablet.png",
+        "test": "..\\bitmaps_test\\20240618-001031\\drink2gotest-06_1_index_hero_TEST-06_PP_0__1_tablet.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "drink2gotest-06_1_index_hero_TEST-06_PP_0__1_tablet.png",
         "label": "index hero TEST-06. PP.",
@@ -126,7 +126,7 @@ report({
           },
           "rawMisMatchPercentage": 1.1714032306763287,
           "misMatchPercentage": "1.17",
-          "analysisTime": 56
+          "analysisTime": 93
         }
       },
       "status": "pass"
@@ -134,7 +134,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\test-06\\drink2gotest-06_1_index_hero_TEST-06_PP_0__2_mobile.png",
-        "test": "..\\bitmaps_test\\20240617-204120\\drink2gotest-06_1_index_hero_TEST-06_PP_0__2_mobile.png",
+        "test": "..\\bitmaps_test\\20240618-001031\\drink2gotest-06_1_index_hero_TEST-06_PP_0__2_mobile.png",
         "selector": "[data-test=\"hero\"]",
         "fileName": "drink2gotest-06_1_index_hero_TEST-06_PP_0__2_mobile.png",
         "label": "index hero TEST-06. PP.",
@@ -152,7 +152,7 @@ report({
           },
           "rawMisMatchPercentage": 1.111375762195122,
           "misMatchPercentage": "1.11",
-          "analysisTime": 93
+          "analysisTime": 46
         }
       },
       "status": "pass"
@@ -160,7 +160,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\test-06\\drink2gotest-06_2_index_features_TEST-06_PP_0__0_desktop.png",
-        "test": "..\\bitmaps_test\\20240617-204120\\drink2gotest-06_2_index_features_TEST-06_PP_0__0_desktop.png",
+        "test": "..\\bitmaps_test\\20240618-001031\\drink2gotest-06_2_index_features_TEST-06_PP_0__0_desktop.png",
         "selector": "[data-test=\"features\"]",
         "fileName": "drink2gotest-06_2_index_features_TEST-06_PP_0__0_desktop.png",
         "label": "index features TEST-06. PP.",
@@ -176,18 +176,17 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 5.486111111111111,
-          "misMatchPercentage": "5.49",
-          "analysisTime": 84
-        },
-        "diffImage": "..\\bitmaps_test\\20240617-204120\\failed_diff_drink2gotest-06_2_index_features_TEST-06_PP_0__0_desktop.png"
+          "rawMisMatchPercentage": 2.6370086241476134,
+          "misMatchPercentage": "2.64",
+          "analysisTime": 111
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\test-06\\drink2gotest-06_2_index_features_TEST-06_PP_0__1_tablet.png",
-        "test": "..\\bitmaps_test\\20240617-204120\\drink2gotest-06_2_index_features_TEST-06_PP_0__1_tablet.png",
+        "test": "..\\bitmaps_test\\20240618-001031\\drink2gotest-06_2_index_features_TEST-06_PP_0__1_tablet.png",
         "selector": "[data-test=\"features\"]",
         "fileName": "drink2gotest-06_2_index_features_TEST-06_PP_0__1_tablet.png",
         "label": "index features TEST-06. PP.",
@@ -203,18 +202,18 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 12.220568783068783,
-          "misMatchPercentage": "12.22",
-          "analysisTime": 239
+          "rawMisMatchPercentage": 6.23036541005291,
+          "misMatchPercentage": "6.23",
+          "analysisTime": 70
         },
-        "diffImage": "..\\bitmaps_test\\20240617-204120\\failed_diff_drink2gotest-06_2_index_features_TEST-06_PP_0__1_tablet.png"
+        "diffImage": "..\\bitmaps_test\\20240618-001031\\failed_diff_drink2gotest-06_2_index_features_TEST-06_PP_0__1_tablet.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\test-06\\drink2gotest-06_2_index_features_TEST-06_PP_0__2_mobile.png",
-        "test": "..\\bitmaps_test\\20240617-204120\\drink2gotest-06_2_index_features_TEST-06_PP_0__2_mobile.png",
+        "test": "..\\bitmaps_test\\20240618-001031\\drink2gotest-06_2_index_features_TEST-06_PP_0__2_mobile.png",
         "selector": "[data-test=\"features\"]",
         "fileName": "drink2gotest-06_2_index_features_TEST-06_PP_0__2_mobile.png",
         "label": "index features TEST-06. PP.",
@@ -230,18 +229,17 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 13.809936252771617,
-          "misMatchPercentage": "13.81",
-          "analysisTime": 104
-        },
-        "diffImage": "..\\bitmaps_test\\20240617-204120\\failed_diff_drink2gotest-06_2_index_features_TEST-06_PP_0__2_mobile.png"
+          "rawMisMatchPercentage": 1.3774944567627494,
+          "misMatchPercentage": "1.38",
+          "analysisTime": 62
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\test-06\\drink2gotest-06_3_index_catalog_TEST-06_PP_0__0_desktop.png",
-        "test": "..\\bitmaps_test\\20240617-204120\\drink2gotest-06_3_index_catalog_TEST-06_PP_0__0_desktop.png",
+        "test": "..\\bitmaps_test\\20240618-001031\\drink2gotest-06_3_index_catalog_TEST-06_PP_0__0_desktop.png",
         "selector": "[data-test=\"catalog\"]",
         "fileName": "drink2gotest-06_3_index_catalog_TEST-06_PP_0__0_desktop.png",
         "label": "index catalog TEST-06. PP.",
@@ -259,16 +257,16 @@ report({
           },
           "rawMisMatchPercentage": 6.375460405156538,
           "misMatchPercentage": "6.38",
-          "analysisTime": 289
+          "analysisTime": 262
         },
-        "diffImage": "..\\bitmaps_test\\20240617-204120\\failed_diff_drink2gotest-06_3_index_catalog_TEST-06_PP_0__0_desktop.png"
+        "diffImage": "..\\bitmaps_test\\20240618-001031\\failed_diff_drink2gotest-06_3_index_catalog_TEST-06_PP_0__0_desktop.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\test-06\\drink2gotest-06_3_index_catalog_TEST-06_PP_0__1_tablet.png",
-        "test": "..\\bitmaps_test\\20240617-204120\\drink2gotest-06_3_index_catalog_TEST-06_PP_0__1_tablet.png",
+        "test": "..\\bitmaps_test\\20240618-001031\\drink2gotest-06_3_index_catalog_TEST-06_PP_0__1_tablet.png",
         "selector": "[data-test=\"catalog\"]",
         "fileName": "drink2gotest-06_3_index_catalog_TEST-06_PP_0__1_tablet.png",
         "label": "index catalog TEST-06. PP.",
@@ -286,16 +284,16 @@ report({
           },
           "rawMisMatchPercentage": 7.632912568618481,
           "misMatchPercentage": "7.63",
-          "analysisTime": 271
+          "analysisTime": 224
         },
-        "diffImage": "..\\bitmaps_test\\20240617-204120\\failed_diff_drink2gotest-06_3_index_catalog_TEST-06_PP_0__1_tablet.png"
+        "diffImage": "..\\bitmaps_test\\20240618-001031\\failed_diff_drink2gotest-06_3_index_catalog_TEST-06_PP_0__1_tablet.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\test-06\\drink2gotest-06_3_index_catalog_TEST-06_PP_0__2_mobile.png",
-        "test": "..\\bitmaps_test\\20240617-204120\\drink2gotest-06_3_index_catalog_TEST-06_PP_0__2_mobile.png",
+        "test": "..\\bitmaps_test\\20240618-001031\\drink2gotest-06_3_index_catalog_TEST-06_PP_0__2_mobile.png",
         "selector": "[data-test=\"catalog\"]",
         "fileName": "drink2gotest-06_3_index_catalog_TEST-06_PP_0__2_mobile.png",
         "label": "index catalog TEST-06. PP.",
@@ -313,16 +311,16 @@ report({
           },
           "rawMisMatchPercentage": 9.90267619680851,
           "misMatchPercentage": "9.90",
-          "analysisTime": 270
+          "analysisTime": 220
         },
-        "diffImage": "..\\bitmaps_test\\20240617-204120\\failed_diff_drink2gotest-06_3_index_catalog_TEST-06_PP_0__2_mobile.png"
+        "diffImage": "..\\bitmaps_test\\20240618-001031\\failed_diff_drink2gotest-06_3_index_catalog_TEST-06_PP_0__2_mobile.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\test-06\\drink2gotest-06_4_index_map_TEST-06_PP_0__0_desktop.png",
-        "test": "..\\bitmaps_test\\20240617-204120\\drink2gotest-06_4_index_map_TEST-06_PP_0__0_desktop.png",
+        "test": "..\\bitmaps_test\\20240618-001031\\drink2gotest-06_4_index_map_TEST-06_PP_0__0_desktop.png",
         "selector": "[data-test=\"map\"]",
         "fileName": "drink2gotest-06_4_index_map_TEST-06_PP_0__0_desktop.png",
         "label": "index map TEST-06. PP.",
@@ -340,16 +338,16 @@ report({
           },
           "rawMisMatchPercentage": 41.80272633744856,
           "misMatchPercentage": "41.80",
-          "analysisTime": 339
+          "analysisTime": 270
         },
-        "diffImage": "..\\bitmaps_test\\20240617-204120\\failed_diff_drink2gotest-06_4_index_map_TEST-06_PP_0__0_desktop.png"
+        "diffImage": "..\\bitmaps_test\\20240618-001031\\failed_diff_drink2gotest-06_4_index_map_TEST-06_PP_0__0_desktop.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\test-06\\drink2gotest-06_4_index_map_TEST-06_PP_0__1_tablet.png",
-        "test": "..\\bitmaps_test\\20240617-204120\\drink2gotest-06_4_index_map_TEST-06_PP_0__1_tablet.png",
+        "test": "..\\bitmaps_test\\20240618-001031\\drink2gotest-06_4_index_map_TEST-06_PP_0__1_tablet.png",
         "selector": "[data-test=\"map\"]",
         "fileName": "drink2gotest-06_4_index_map_TEST-06_PP_0__1_tablet.png",
         "label": "index map TEST-06. PP.",
@@ -367,16 +365,16 @@ report({
           },
           "rawMisMatchPercentage": 59.5361328125,
           "misMatchPercentage": "59.54",
-          "analysisTime": 311
+          "analysisTime": 312
         },
-        "diffImage": "..\\bitmaps_test\\20240617-204120\\failed_diff_drink2gotest-06_4_index_map_TEST-06_PP_0__1_tablet.png"
+        "diffImage": "..\\bitmaps_test\\20240618-001031\\failed_diff_drink2gotest-06_4_index_map_TEST-06_PP_0__1_tablet.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\test-06\\drink2gotest-06_4_index_map_TEST-06_PP_0__2_mobile.png",
-        "test": "..\\bitmaps_test\\20240617-204120\\drink2gotest-06_4_index_map_TEST-06_PP_0__2_mobile.png",
+        "test": "..\\bitmaps_test\\20240618-001031\\drink2gotest-06_4_index_map_TEST-06_PP_0__2_mobile.png",
         "selector": "[data-test=\"map\"]",
         "fileName": "drink2gotest-06_4_index_map_TEST-06_PP_0__2_mobile.png",
         "label": "index map TEST-06. PP.",
@@ -394,16 +392,16 @@ report({
           },
           "rawMisMatchPercentage": 52.258184523809526,
           "misMatchPercentage": "52.26",
-          "analysisTime": 164
+          "analysisTime": 123
         },
-        "diffImage": "..\\bitmaps_test\\20240617-204120\\failed_diff_drink2gotest-06_4_index_map_TEST-06_PP_0__2_mobile.png"
+        "diffImage": "..\\bitmaps_test\\20240618-001031\\failed_diff_drink2gotest-06_4_index_map_TEST-06_PP_0__2_mobile.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\test-06\\drink2gotest-06_5_index_footer_TEST-06_PP_0__0_desktop.png",
-        "test": "..\\bitmaps_test\\20240617-204120\\drink2gotest-06_5_index_footer_TEST-06_PP_0__0_desktop.png",
+        "test": "..\\bitmaps_test\\20240618-001031\\drink2gotest-06_5_index_footer_TEST-06_PP_0__0_desktop.png",
         "selector": "[data-test=\"footer\"]",
         "fileName": "drink2gotest-06_5_index_footer_TEST-06_PP_0__0_desktop.png",
         "label": "index footer TEST-06. PP.",
@@ -421,16 +419,16 @@ report({
           },
           "rawMisMatchPercentage": 7.81705948372615,
           "misMatchPercentage": "7.82",
-          "analysisTime": 125
+          "analysisTime": 84
         },
-        "diffImage": "..\\bitmaps_test\\20240617-204120\\failed_diff_drink2gotest-06_5_index_footer_TEST-06_PP_0__0_desktop.png"
+        "diffImage": "..\\bitmaps_test\\20240618-001031\\failed_diff_drink2gotest-06_5_index_footer_TEST-06_PP_0__0_desktop.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\test-06\\drink2gotest-06_5_index_footer_TEST-06_PP_0__1_tablet.png",
-        "test": "..\\bitmaps_test\\20240617-204120\\drink2gotest-06_5_index_footer_TEST-06_PP_0__1_tablet.png",
+        "test": "..\\bitmaps_test\\20240618-001031\\drink2gotest-06_5_index_footer_TEST-06_PP_0__1_tablet.png",
         "selector": "[data-test=\"footer\"]",
         "fileName": "drink2gotest-06_5_index_footer_TEST-06_PP_0__1_tablet.png",
         "label": "index footer TEST-06. PP.",
@@ -448,16 +446,16 @@ report({
           },
           "rawMisMatchPercentage": 16.483738111413043,
           "misMatchPercentage": "16.48",
-          "analysisTime": 129
+          "analysisTime": 136
         },
-        "diffImage": "..\\bitmaps_test\\20240617-204120\\failed_diff_drink2gotest-06_5_index_footer_TEST-06_PP_0__1_tablet.png"
+        "diffImage": "..\\bitmaps_test\\20240618-001031\\failed_diff_drink2gotest-06_5_index_footer_TEST-06_PP_0__1_tablet.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\test-06\\drink2gotest-06_5_index_footer_TEST-06_PP_0__2_mobile.png",
-        "test": "..\\bitmaps_test\\20240617-204120\\drink2gotest-06_5_index_footer_TEST-06_PP_0__2_mobile.png",
+        "test": "..\\bitmaps_test\\20240618-001031\\drink2gotest-06_5_index_footer_TEST-06_PP_0__2_mobile.png",
         "selector": "[data-test=\"footer\"]",
         "fileName": "drink2gotest-06_5_index_footer_TEST-06_PP_0__2_mobile.png",
         "label": "index footer TEST-06. PP.",
@@ -475,9 +473,9 @@ report({
           },
           "rawMisMatchPercentage": 16.180655619596543,
           "misMatchPercentage": "16.18",
-          "analysisTime": 113
+          "analysisTime": 67
         },
-        "diffImage": "..\\bitmaps_test\\20240617-204120\\failed_diff_drink2gotest-06_5_index_footer_TEST-06_PP_0__2_mobile.png"
+        "diffImage": "..\\bitmaps_test\\20240618-001031\\failed_diff_drink2gotest-06_5_index_footer_TEST-06_PP_0__2_mobile.png"
       },
       "status": "fail"
     }

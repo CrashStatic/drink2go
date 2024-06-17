@@ -3,67 +3,8 @@
   background-color: #f3ebe1;
 }
 
-// .hero__button-container {
-//   position: absolute;
-//   top: 0;
-//   right: 0;
-//   height: 100%;
-//   display: flex;
-//   justify-content: space-between;
-
-//   .hero__button--next {
-//     position: absolute;
-//     left: 300px;
-//     width: 20px;
-//     height: 100%;
-//   }
-// }
-
-// .hero__button-image {
-//   width: 20px;
-//   height: 20px;
-// }
-
-// .hero__button {
-//   padding: 0;
-//   cursor: pointer;
-//   border: 0;
-//   background-color: transparent;
-
-//   & svg {
-//     color: #7859CF;
-//   }
-
-//   &--prev:hover,
-//   &--prev:focus {
-//     background: linear-gradient(90deg, #fff 0%, #ffffff00 100%);
-//   }
-
-//   &--prev:active {
-//     background: linear-gradient(90deg, #7859cf40 0%, #7859cf00 100%);
-//   }
-
-//   &--prev:disabled svg {
-//     color: #bdbdbd;
-//   }
-
-//   &--next:hover,
-//   &--next:focus {
-//     background: linear-gradient(270deg, #fff 0%, #ffffff00 100%);
-//   }
-
-//   &--next:active {
-//     background: linear-gradient(270deg, #7859cf40 0%, #7859cf00 100%);
-//   }
-
-//   &--next:disabled svg{
-//     color: #bdbdbd;
-//   }
-// }
-
 @media (max-width: $mobile-width) {
   .hero {
-    // position: relative;
     margin: 0;
   }
 }
@@ -90,15 +31,4 @@
     position: relative;
     background: #f3ebe1;
   }
-
-  // .hero__button-container {
-  //   top: 0;
-  //   left: 0;
-  //   height: 100%;
-  // }
-
-  // .hero__button {
-  //   padding-left: 30px;
-  //   padding-right: 30px;
-  // }
 }

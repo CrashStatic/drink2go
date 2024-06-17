@@ -1,5 +1,4 @@
 .header {
-  max-width: 1360px;
   margin: 0 auto;
 }
 
@@ -17,7 +16,7 @@
 
 @media (min-width: $desktop-width) {
   .header {
-    width: 1360px;
-    margin: 0 40px;
+    width: 1440px;
+    padding: 0 40px;
   }
 }
