@@ -69,6 +69,10 @@
 }
 
 @media (min-width: $tablet-width) {
+  .hero {
+    background: linear-gradient(to bottom, #f3ebe1, #f3ebe1 640px, #ffffff 640px, #ffffff 100%);
+  }
+
   .hero__button-container {
     top: 80px;
     left: 0;
@@ -84,16 +88,17 @@
 @media (min-width: $desktop-width) {
   .hero {
     position: relative;
+    background: #f3ebe1;
   }
 
-  .hero__button-container {
-    top: 0;
-    left: 0;
-    height: 100%;
-  }
+  // .hero__button-container {
+  //   top: 0;
+  //   left: 0;
+  //   height: 100%;
+  // }
 
-  .hero__button {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
+  // .hero__button {
+  //   padding-left: 30px;
+  //   padding-right: 30px;
+  // }
 }

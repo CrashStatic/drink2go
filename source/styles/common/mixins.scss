@@ -4,7 +4,7 @@
   text-transform: uppercase;
   color: #333333;
   user-select: none;
-  line-height: 100%;
+  line-height: 16px;
 }
 
 @mixin list {
@@ -15,8 +15,9 @@
 
 @mixin button {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 143%;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px 23px;
   border-radius: 4px;
   color: #ffffff;
   background-color: #7859cf;
