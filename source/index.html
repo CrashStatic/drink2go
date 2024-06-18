@@ -43,7 +43,7 @@
               </li>
             </ul>
           </div>
-          <button class="navigation__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+          <button class="navigation__toggle js-toggle-button" type="button"><span class="visually-hidden">Открыть меню</span></button>
           <ul class="navigation__list">
             <li class="navigation__item navigation__item--current">
               <a class="navigation__link" href="index.html">Главная</a>
@@ -69,14 +69,14 @@
         <h2 class="visually-hidden">Галерея напитков</h2>
 
         <div class="slider">
-          <div class="slider__button-container">
-            <button class="slider__button slider__button--prev" type="button">
+          <div class="slider__button-container slider-pagination">
+            <button class="slider__button slider__button--prev slider-button-prev" type="button">
               <span class="visually-hidden">Предыдущий слайд</span>
               <svg class="slider__button-image" aria-hidden="true" focusable="false" width="16" height="16">
                 <use href="icons/stack.svg#slider-left"></use>
               </svg>
             </button>
-            <button class="slider__button slider__button--next" type="button">
+            <button class="slider__button slider__button--next slider-button-next" type="button">
               <span class="visually-hidden">Следующий слайд</span>
               <svg class="slider__button-image" aria-hidden="true" focusable="false" width="16" height="16">
                 <use href="icons/stack.svg#slider-right"></use>
@@ -181,8 +181,8 @@
         <p class="features__subtitle subtitle">Преимущества</p>
         <h2 class="features__title">Главные причины выбрать Drink2Go</h2>
         <ol class="features__list">
-          <li class="features__item">
-            <div class="features__image-conainer">
+          <li class="features__item features__item--speed">
+            <div class="features__image-container">
               <svg class="features__image" aria-hidden="true" focusable="false" width="52" height="56">
                 <use href="icons/stack.svg#speed"></use>
               </svg>
@@ -190,8 +190,8 @@
             <h3 class="features__header">Скорость</h3>
             <p class="features__description">Готовый напиток всегда под рукой&nbsp;&mdash; просто открой банку</p>
           </li>
-          <li class="features__item">
-            <div class="features__image-conainer">
+          <li class="features__item features__item--fit">
+            <div class="features__image-container">
               <svg class="features__image" aria-hidden="true" focusable="false" width="52" height="56">
                 <use href="icons/stack.svg#fit"></use>
               </svg>
@@ -199,8 +199,8 @@
             <h3 class="features__header">Удобство</h3>
             <p class="features__description">Легко помещается и&nbsp;в&nbsp;карман, и&nbsp;в&nbsp;маленькую сумочку</p>
           </li>
-          <li class="features__item">
-            <div class="features__image-conainer">
+          <li class="features__item features__item--energy">
+            <div class="features__image-container">
               <svg class="features__image" aria-hidden="true" focusable="false" width="52" height="56">
                 <use href="icons/stack.svg#energy"></use>
               </svg>
@@ -208,8 +208,8 @@
             <h3 class="features__header">Бодрость</h3>
             <p class="features__description">Сбалансированная доза кофеина даст мощный заряд энергии</p>
           </li>
-          <li class="features__item">
-            <div class="features__image-conainer">
+          <li class="features__item features__item--eco">
+            <div class="features__image-container">
               <svg class="features__image" aria-hidden="true" focusable="false" width="52" height="56">
                 <use href="icons/stack.svg#eco"></use>
               </svg>
