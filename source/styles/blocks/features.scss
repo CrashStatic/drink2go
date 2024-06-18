@@ -93,3 +93,41 @@
     line-height: 36px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .features {
+    width: 1440px;
+    padding: 100px 40px 120px;
+  }
+
+  .features__title {
+    margin-bottom: 80px;
+  }
+
+  .features__list {
+    padding: 0;
+    display: flex;
+  }
+
+  .features__item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0;
+    min-width: 318px;
+
+    &--speed .features__image-container,
+    &--eco .features__image-container {
+      margin-top: 0;
+    }
+  }
+
+  .features__image-container {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .features__header {
+    margin-bottom: 10px;
+  }
+}
