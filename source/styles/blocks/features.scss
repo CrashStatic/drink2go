@@ -15,6 +15,7 @@
 
 .features__list {
   @include list;
+  flex-wrap: wrap;
 }
 
 .features__image-container {
@@ -114,7 +115,7 @@
     flex-direction: column;
     text-align: center;
     gap: 0;
-    min-width: 318px;
+    max-width: 317px;
 
     &--speed .features__image-container,
     &--eco .features__image-container {
