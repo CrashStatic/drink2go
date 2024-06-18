@@ -180,7 +180,7 @@
       <section class="features container" data-test="features">
         <p class="features__subtitle subtitle">Преимущества</p>
         <h2 class="features__title">Главные причины выбрать Drink2Go</h2>
-        <ol class="features__list">
+        <ul class="features__list">
           <li class="features__item features__item--speed">
             <div class="features__image-container">
               <svg class="features__image" aria-hidden="true" focusable="false" width="52" height="56">
@@ -217,7 +217,7 @@
             <h3 class="features__header">Экологичность</h3>
             <p class="features__description">Вся упаковка сделана из&nbsp;перерабатываемых материалов</p>
           </li>
-        </ol>
+        </ul>
       </section>
 
 
@@ -239,7 +239,107 @@
           </div>
         </div>
       </section>
-
     </main>
+
+    <footer class="footer-main container" data-test="footer">
+      <h2 class="visually-hidden">Контактная информация</h2>
+
+      <section class="social">
+        <h3 class="visually-hidden">Социльные сети</h3>
+        <a class="social__logo" href="index.html">
+          <picture>
+            <source media="(min-width: 768px)" type="image/webp" srcset="images/logo-desktop.svg" width="170" height="36">
+            <img class="social__image" src="images/logo-tablet.svg" alt="Иконка сайта Drink2Go" width="82" height="36">
+          </picture>
+          <p class="social__text">Интернет-магазин кофейных напитков</p>
+        </a>
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link" href="#">
+              <span class="visually-hidden">Вконтакте</span>
+              <svg class="social__link-image" aria-hidden="true" focusable="false" width="20" height="20">
+                <use href="icons/stack.svg#vk"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#">
+              <span class="visually-hidden">Pinterest</span>
+              <svg class="social__link-image" aria-hidden="true" focusable="false" width="22" height="22">
+                <use href="icons/stack.svg#pinterest"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#">
+              <span class="visually-hidden">Одноклассники</span>
+              <svg class="social__link-image" aria-hidden="true" focusable="false" width="20" height="20">
+                <use href="icons/stack.svg#ok"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="info">
+        <h3 class="info__title footer-subtitle">Интернет-магазин</h3>
+        <ul class="info__list">
+          <li class="info__item">
+            <a class="info__link" href="#">Каталог</a>
+          </li>
+          <li class="info__item">
+            <a class="info__link" href="#">Доставка</a>
+          </li>
+          <li class="info__item">
+            <a class="info__link" href="#">Способы оплаты</a>
+          </li>
+          <li class="info__item">
+            <a class="info__link" href="#">О&nbsp;нас</a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="media">
+        <h3 class="media__title footer-subtitle">Медиа</h3>
+        <ul class="media__list">
+          <li class="media__item">
+            <a class="media__link" href="#">Блог</a>
+          </li>
+          <li class="media__item">
+            <a class="media__link" href="#">Информация для СМИ</a>
+          </li>
+          <li class="media__item">
+            <a class="media__link" href="#">Правовая информация</a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="contacts">
+        <h3 class="contacts__title footer-subtitle">Контакты</h3>
+        <div class="contacts__address">
+          <svg class="contacts__address-image" aria-hidden="true" focusable="false" width="13" height="16">
+            <use href="icons/stack.svg#address-pin"></use>
+          </svg>
+          <p class="contacts__address-text">Санкт-Петербург, набережная реки Карповки, дом 5</p>
+        </div>
+        <div class="contacts__number">
+          <svg class="contacts__number-image" aria-hidden="true" focusable="false" width="13" height="16">
+            <use href="icons/stack.svg#phone"></use>
+          </svg>
+          <a class="contacts__number-phone" href="tel:+78128121212">+7 (999) 999-99-99</a>
+        </div>
+      </section>
+
+      <div class="copyright">
+        <p class="copyright__text">Разработано в</p>
+        <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
+          <p class="copyright__link-text">HTML Academy</p>
+          <svg class="contacts__number-image" aria-hidden="true" focusable="false" width="12" height="16">
+            <use href="icons/stack.svg#academy"></use>
+          </svg>
+        </a>
+      </div>
+
+    </footer>
   </body>
 </html>
