@@ -52,4 +52,13 @@
   text-transform: uppercase;
   color: #333333;
   user-select: none;
+
+  &:hover,
+  &:focus {
+    color: #9070ec;
+  }
+
+  &:active {
+    color:#593cac;
+  }
 }

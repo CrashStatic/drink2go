@@ -19,6 +19,27 @@
   color: #bdbdbd;
   text-decoration: none;
   user-select: none;
+
+  & svg {
+    color: #bdbdbd;
+  }
+
+  &:hover,
+  &:focus {
+    color: #7859cf;
+
+    & svg {
+      color: #7859cf;
+    }
+  }
+
+  &:active {
+    color: #593cac;
+
+    & svg {
+      color: #593cac;
+    }
+  }
 }
 
 .copyright__link-text {

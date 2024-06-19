@@ -1,19 +1,6 @@
 .social {
-  position: relative;
-  padding: 20px 0 21px;
   display: flex;
   justify-content: space-between;
-
-  &::after {
-    content: "";
-    width: 100vw;
-    height: 1px;
-    position: absolute;
-    background: #f0ebff;
-    padding: 0;
-    margin-left: -20px;
-    bottom: 0;
-  }
 }
 
 .social__logo {
@@ -44,4 +31,27 @@
   padding: 9px;
   width: 40px;
   height: 40px;
+
+  & svg {
+    color: #bdbdbd;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: #f0ebff;
+    border-radius: 4px;
+
+    & svg {
+      color: #7859cf;
+    }
+  }
+
+  &:active {
+    background-color: hsla(256, 55%, 58%, 0.25);
+    border-radius: 4px;
+
+    & svg {
+      color: #7859cf;
+    }
+  }
 }
