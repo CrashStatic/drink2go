@@ -52,3 +52,10 @@
     grid-column: 2 / 3;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .copyright {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+  }
+}

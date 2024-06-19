@@ -134,6 +134,12 @@
     display: none;
   }
 
+  .navigation__list {
+    max-width: 400px;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+
   .navigation__container {
     min-width: 580px;
     flex-direction: row-reverse;
@@ -173,6 +179,10 @@
   .navigation {
     margin: 0 auto;
     width: 1360px;
+  }
+
+  .navigation__list {
+    max-width: 478px;
   }
 
   .navigation__container {

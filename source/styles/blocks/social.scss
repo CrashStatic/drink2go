@@ -17,6 +17,7 @@
   width: 160px;
   justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: start;
 }
 
 .social__item {
@@ -67,5 +68,32 @@
 
   .social__item:not(:last-child){
     margin-right: 20px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .social {
+    grid-column: 1 / 2;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 0;
+  }
+
+  .social__logo {
+    text-transform: none;
+    text-decoration: none;
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+
+  .social__text {
+    margin: 0;
+    display: block;
+    margin-top: 10px;
+  }
+
+  .social__list {
+    width: 318px;
   }
 }

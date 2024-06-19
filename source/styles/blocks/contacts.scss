@@ -36,3 +36,9 @@
     max-width: 204px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .contacts__address-text {
+    max-width: max-content;
+  }
+}
