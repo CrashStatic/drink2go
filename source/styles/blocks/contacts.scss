@@ -1,0 +1,32 @@
+.contacts__title {
+  @include subtitle;
+  margin-bottom: 20px;
+}
+
+.contacts__address {
+  display: flex;
+  column-gap: 6px;
+  margin-bottom: 16px;
+}
+
+.contacts__number {
+  display: flex;
+  column-gap: 6px;
+}
+
+.contacts__address-text {
+  max-width: 261px;
+  margin: 0;
+}
+
+.contacts__number-phone {
+  @include link;
+  line-height: 20px;
+  max-width: 261px;
+  margin: 0;
+}
+
+.contacts__address-image,
+.contacts__number-image {
+  margin-top: 2px;
+}

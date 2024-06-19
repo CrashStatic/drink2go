@@ -1,0 +1,23 @@
+.info__title {
+  @include subtitle;
+  margin-bottom: 12px;
+}
+
+.info__list {
+  @include list;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.info__item {
+  padding: 8px 0;
+
+  &:not(:last-child) {
+    margin-bottom: 4px;
+  }
+}
+
+.info__link {
+  @include link-footer;
+  padding: 8px 0;
+}

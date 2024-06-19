@@ -33,3 +33,23 @@
   line-height: 36px;
   text-align: center;
 }
+
+@mixin subtitle {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.28px;
+  color: #7859cf;
+  margin: 0;
+}
+
+@mixin link-footer {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  letter-spacing: 0.24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #333333;
+  user-select: none;
+}

@@ -1,0 +1,26 @@
+.copyright {
+  display: flex;
+  padding: 20px 0 30px;
+  justify-content: center;
+  color: #bdbdbd;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.copyright__text {
+  margin: 0;
+  margin-right: 3px;
+}
+
+.copyright__link {
+  width: 112px;
+  display: flex;
+  justify-content: space-between;
+  color: #bdbdbd;
+  text-decoration: none;
+  user-select: none;
+}
+
+.copyright__link-text {
+  margin: 0;
+}

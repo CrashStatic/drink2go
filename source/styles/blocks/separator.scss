@@ -1,0 +1,15 @@
+.separator {
+  position: relative;
+  padding: 20px 0 21px;
+
+  &::after {
+    content: "";
+    width: 100vw;
+    height: 1px;
+    position: absolute;
+    background: #f0ebff;
+    padding: 0;
+    margin-left: -20px;
+    bottom: 0;
+  }
+}
