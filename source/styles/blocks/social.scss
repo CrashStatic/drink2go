@@ -17,7 +17,6 @@
   width: 160px;
   justify-content: space-between;
   flex-wrap: wrap;
-  justify-content: start;
 }
 
 .social__item {
@@ -26,10 +25,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-  &:not(:last-child) {
-    margin-right: 20px;
-  }
 }
 
 .social__link {
@@ -68,6 +63,10 @@
 
   .social__list {
     width: max-content;
+  }
+
+  .social__item:not(:last-child) {
+    margin-right: 20px;
   }
 }
 
