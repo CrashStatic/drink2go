@@ -55,3 +55,17 @@
     }
   }
 }
+
+@media (min-width: $tablet-width) {
+  .social {
+    grid-column: 1 / 4;
+  }
+
+  .social__list {
+    width: max-content;
+  }
+
+  .social__item:not(:last-child){
+    margin-right: 20px;
+  }
+}

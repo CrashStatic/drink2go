@@ -2,3 +2,14 @@
   width: 320px;
   padding: 0 20px;
 }
+
+@media (min-width: $tablet-width) {
+  .footer-main {
+    width: 768px;
+    padding: 40px 20px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 223px);
+    grid-template-rows: 40px minmax(172px, 1fr) 16px;
+  }
+}

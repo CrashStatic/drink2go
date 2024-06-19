@@ -45,3 +45,10 @@
 .copyright__link-text {
   margin: 0;
 }
+
+@media (min-width: $tablet-width) {
+  .copyright {
+    padding: 0;
+    grid-column: 2 / 3;
+  }
+}

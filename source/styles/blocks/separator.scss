@@ -13,3 +13,13 @@
     bottom: 0;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .separator {
+    padding: 0;
+
+    &::after {
+      display: none;
+    }
+  }
+}

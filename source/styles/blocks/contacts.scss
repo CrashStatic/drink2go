@@ -30,3 +30,9 @@
 .contacts__number-image {
   margin-top: 2px;
 }
+
+@media (min-width: $tablet-width) {
+  .contacts__address-text {
+    max-width: 204px;
+  }
+}
