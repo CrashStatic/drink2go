@@ -62,3 +62,10 @@
     color: #593cac;
   }
 }
+
+@mixin catalog-title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 0;
+}

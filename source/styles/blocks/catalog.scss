@@ -1,0 +1,15 @@
+.catalog {
+  background-color: #f8f8f8;
+}
+
+.catalog__container {
+  width: 320px;
+  padding: 50px 20px 44px;
+  margin: 0 auto;
+}
+
+.catalog__title {
+  @include title;
+  margin: 0;
+  margin-bottom: 20px;
+}
