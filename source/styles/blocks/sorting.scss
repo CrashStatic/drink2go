@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding-left: 3px;
-  margin-bottom: 16px;
+  margin-bottom: 18px;
 }
 
 .sorting__title {
@@ -12,11 +12,12 @@
 }
 
 .sorting__control {
+  font-family: "Montserrat", "Arial", sans-serif;
   width: 165px;
   border: 0;
   cursor: pointer;
   appearance: none;
-  padding: 5px 15px;
+  padding: 4px 15px;
   border-radius: 4px;
   text-align: left;
   color: #7859cf;
