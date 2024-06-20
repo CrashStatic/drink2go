@@ -3,14 +3,12 @@
 }
 
 .price__group {
-  margin: 0;
-  border: none;
-  padding: 0;
+  @include fieldset;
 }
 
 .price__title {
   @include catalog-title;
-  margin-bottom: 20px;
+  margin-bottom: 31px;
 }
 
 .price__wrapper-value {
@@ -21,9 +19,6 @@
 .price__label {
   width: 118px;
   background: #ffffff;
-  border-radius: 4px;
-  border: 2px #9070ec solid;
-  padding: 6px 10px;
   position: relative;
 
   &--left::after {
@@ -38,11 +33,76 @@
 }
 
 .price__value {
-  padding: 0;
-  border: 0;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
+  @include input;
+  width: 100%;
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: 2px #9070ec solid;
   text-align: center;
-  width: 98px;
+  appearance: textfield;
+  color: #333333;
+
+  &:focus-visible {
+    outline: none;
+  }
+
+  &:focus {
+    border: 2px #593cac solid;
+    color: #333333;
+  }
+}
+
+.price__scale {
+  position: relative;
+  width: 280px;
+  height: 2px;
+  background-color: #e2e2e2;
+  margin-bottom: 35px;
+}
+
+.price__bar {
+  position: absolute;
+  width: 241px;
+  height: 4px;
+  background-color: #9070ec;
+  top: -1px;
+  left: 11px;
+}
+
+.price__toggle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: #ffffff;
+  border: 2px #9070ec solid;
+  padding: 0;
+  position: absolute;
+  top: -10px;
+
+  &--min {
+    left: -11px;
+  }
+
+  &--max {
+    right: -8px;
+  }
+
+  &:hover::after,
+  &:focus::after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: hsla(256, 55%, 58%, 0.25);
+    top: 50%;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: -8px;
+  }
+
+  &:active::after {
+    background: #7859cf;
+  }
 }

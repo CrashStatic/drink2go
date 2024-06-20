@@ -1,0 +1,29 @@
+.filter {
+  margin-bottom: 40px;
+}
+
+.filter__buttons {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.filter__button {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 8px 20px;
+  border-radius: 4px;
+  border: 0;
+
+  &--apply {
+    background-color: #7859cf;
+    color: #ffffff;
+  }
+
+  &--reset {
+    background-color: #ffffff;
+    color: #7859cf;
+  }
+}

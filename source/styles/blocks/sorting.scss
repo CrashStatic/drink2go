@@ -1,0 +1,33 @@
+.sorting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3px;
+  margin-bottom: 16px
+}
+
+.sorting__title {
+  @include catalog-title;
+  margin: 0;
+}
+
+.sorting__control {
+  width: 165px;
+  border: 0;
+  cursor: pointer;
+  appearance: none;
+  padding: 5px 15px;
+  border-radius: 4px;
+  text-align: left;
+  color: #7859cf;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: lowercase;
+  background-color: transparent;
+  position: relative;
+  background-image: url("../../icons/sorting-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: right 7px center;
+  background-size: 10px 10px;
+}

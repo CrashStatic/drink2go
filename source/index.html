@@ -242,10 +242,10 @@
                 </div>
                 <div class="price__wrapper-value">
                   <label class="price__label price__label--left">
-                    <input class="price__value" type="number" name="min-price" placeholder="0">
+                    <input class="price__value" type="number" name="min-price" placeholder="0" min="1">
                   </label>
                   <label class="price__label price__label--right">
-                    <input class="price__value" type="number" value="900" name="max-price">
+                    <input class="price__value" type="number" value="900" name="max-price" min="1">
                   </label>
                 </div>
               </fieldset>
@@ -265,7 +265,7 @@
                   </li>
                   <li class="selection__item">
                     <input class="selection__input" type="radio" id="vegetable" name="milk" value="vegetable">
-                    <label class="selection__control" for="vegetable">Только животное</label>
+                    <label class="selection__control" for="vegetable">Только растительное</label>
                   </li>
                   <li class="selection__item selection__item--disabled">
                     <input class="selection__input" type="radio" id="not-milk" name="milk" value="not-milk">
@@ -275,29 +275,29 @@
               </fieldset>
             </div>
 
-            <div class="filter__country country">
+            <div class="filter__country selection">
               <fieldset class="selection__group">
                 <legend class="selection__title">Страна произрастания</legend>
                 <ul class="selection__list">
                   <li class="selection__item">
                     <input class="selection__input" type="checkbox" id="brazil" name="brazil" checked>
-                    <label class="selection__label" for="brazil">Бразилия</label>
+                    <label class="selection__control" for="brazil">Бразилия</label>
                   </li>
                   <li class="selection__item">
                     <input class="selection__input" type="checkbox" id="ethiopia" name="ethiopia">
-                    <label class="selection__label" for="ethiopia">Эфиопия</label>
+                    <label class="selection__control" for="ethiopia">Эфиопия</label>
                   </li>
                   <li class="selection__item">
                     <input class="selection__input" type="checkbox" id="colombia" name="colombia">
-                    <label class="selection__label" for="colombia">Колумбия</label>
+                    <label class="selection__control" for="colombia">Колумбия</label>
                   </li>
                   <li class="selection__item">
                     <input class="selection__input" type="checkbox" id="costa-rica" name="costa-rica">
-                    <label class="selection__label" for="costa-rica">Коста-Рика</label>
+                    <label class="selection__control" for="costa-rica">Коста-Рика</label>
                   </li>
                   <li class="selection__item selection__item--disabled">
                     <input class="selection__input" type="checkbox" id="peru" name="peru">
-                    <label class="selection__label" for="peru">Перу</label>
+                    <label class="selection__control" for="peru">Перу</label>
                   </li>
                 </ul>
               </fieldset>
@@ -305,7 +305,7 @@
 
             <div class="filter__buttons">
               <button class="filter__button filter__button--apply" type="submit">Применить</button>
-              <button class="filter__button filter__button--apply" type="reset">Сбросить</button>
+              <button class="filter__button filter__button--reset" type="reset">Сбросить</button>
             </div>
 
           </form>
