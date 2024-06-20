@@ -21,10 +21,29 @@
   &--apply {
     background-color: #7859cf;
     color: #ffffff;
+
+    &:disabled {
+      background-color: #bdbdbd;
+    }
   }
 
   &--reset {
     background-color: #ffffff;
     color: #7859cf;
+
+    &:disabled {
+      background-color: #e2e2e2;
+      color: #ffffff;
+    }
+  }
+
+  &:focus,
+  &:hover {
+    color: #ffffff;
+    background-color: #9070ec;
+  }
+
+  &:active {
+    background-color: #593cac;
   }
 }

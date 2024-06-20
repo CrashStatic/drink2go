@@ -31,4 +31,13 @@
   background-repeat: no-repeat;
   background-position: right 7px center;
   background-size: 10px 10px;
+
+  &:focus,
+  &:hover {
+    background-color: #f0ebff;
+  }
+
+  &:active {
+    background-image: url("../../icons/sorting-open.svg");
+  }
 }
