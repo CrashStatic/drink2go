@@ -44,9 +44,6 @@
 
   &:focus-visible {
     outline: none;
-  }
-
-  &:focus {
     border: 2px #593cac solid;
     color: #333333;
   }
@@ -89,7 +86,7 @@
   }
 
   &:hover::after,
-  &:focus::after {
+  &:focus-visible::after {
     content: "";
     position: absolute;
     width: 16px;
@@ -146,6 +143,10 @@
 }
 
 @media (min-width: $desktop-width) {
+  .price {
+    margin-bottom: 32px;
+  }
+
   .price__scale {
     width: 318px;
     margin-bottom: 32px;
@@ -172,11 +173,9 @@
 
   .price__label {
     width: 134px;
-  }
-}
 
-@media (min-width: $desktop-width) {
-  .price {
-    margin-bottom: 32px;
+    &--left::after {
+      left: 155px;
+    }
   }
 }

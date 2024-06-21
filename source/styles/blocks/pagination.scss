@@ -32,7 +32,7 @@
     background-position: center;
     background-size: 10px 10px;
 
-    &:focus,
+    &:focus-visible,
     &:hover {
       background-image: url("../../icons/arrow-left-white.svg");
     }
@@ -44,7 +44,7 @@
     background-position: center;
     background-size: 10px 10px;
 
-    &:focus,
+    &:focus-visible,
     &:hover {
       background-image: url("../../icons/arrow-rigth-white.svg");
     }
@@ -56,7 +56,7 @@
     color: #333333;
   }
 
-  &:focus,
+  &:focus-visible,
   &:hover {
     background-color: #9070ec;
     color: #ffffff;

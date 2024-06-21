@@ -48,10 +48,20 @@ const prevButtonElement = document.querySelector('.slider__button--prev');
 const nextButtonElement = document.querySelector('.slider__button--next');
 let slideIndex = 0;
 
-const showImage = (index) => {
-  slidesElements[slideIndex].style.display = 'none';
-  slidesElements[index].style.display = 'flex';
-  slideIndex = index;
+// const showImage = (index) => {
+//   slidesElements[slideIndex].style.display = 'none';
+//   slidesElements[index].style.display = 'flex';
+//   slideIndex = index;
+// };
+
+const updateSlider = () => {
+  slidesElements.forEach((slide, index) => {
+    if (index === slideIndex) {
+      slide.style.display = 'flex';
+    } else {
+      slide.style.display = 'none';
+    }
+  });
 };
 
 // document.querySelector('.slider__button-container').addEventListener('click', (evt) => {
@@ -72,33 +82,27 @@ const showImage = (index) => {
 
 // Функция для показа предыдущего слайда
 const showPreviousSlide = () => {
-  if (slideIndex !== 0) {
-    let index = slideIndex - 1;
-    if (index < 0) {
-      index = slidesElements.length - 1;
-    }
-    showImage(index);
+  if (slideIndex > 0) {
+    slideIndex--;
   } else {
-    prevButtonElement.disabled = true;
+    prevButtonElement.ariaDisabled = true;
     slideIndex = 0;
   }
+  updateSlider(slideIndex);
 };
 
 // Функция для показа следующего слайда
 const showNextSlide = () => {
-  if (slideIndex !== slidesElements.length - 1) {
-    let index = slideIndex + 1;
-    if (index > slidesElements.length) {
-      index = 0;
-    }
-    showImage(index);
+  if (slideIndex < slidesElements.length - 1) {
+    slideIndex++;
   } else {
-    nextButtonElement.disabled = true;
+    nextButtonElement.ariaDisabled = true;
     slideIndex = slidesElements.length - 1;
   }
+  updateSlider(slideIndex);
 };
 
 prevButtonElement.addEventListener('click', showPreviousSlide);
 nextButtonElement.addEventListener('click', showNextSlide);
 
-showImage(slideIndex);
+updateSlider(slideIndex);

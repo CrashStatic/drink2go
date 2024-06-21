@@ -60,7 +60,7 @@
   background-color: #7859cf;
   border-radius: 4px;
 
-  &:focus,
+  &:focus-visible,
   &:hover {
     background-color: #9070ec;
   }
@@ -136,7 +136,7 @@
     width: 100%;
 
     &:hover,
-    &:focus {
+    &:focus-visible {
       box-shadow: 0 5px 15px hsla(0, 0%, 0%, 0.15);
     }
   }

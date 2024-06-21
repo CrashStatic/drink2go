@@ -37,7 +37,7 @@
     }
   }
 
-  &:focus,
+  &:focus-visible,
   &:hover {
     color: #ffffff;
     background-color: #9070ec;

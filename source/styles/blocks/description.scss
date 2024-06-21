@@ -34,7 +34,7 @@
   @include button;
 
   &:hover,
-  &:focus {
+  &:focus-visible {
     background-color: #9070ec;
   }
 

@@ -32,7 +32,7 @@
   background-position: right 7px center;
   background-size: 10px 10px;
 
-  &:focus,
+  &:focus-visible,
   &:hover {
     background-color: #f0ebff;
   }
