@@ -144,3 +144,39 @@
     }
   }
 }
+
+@media (min-width: $desktop-width) {
+  .price__scale {
+    width: 318px;
+    margin-bottom: 32px;
+  }
+
+  .price__bar {
+    width: 274px;
+    left: 12px;
+  }
+
+  .price__title {
+    margin-bottom: 32px;
+  }
+
+  .price__toggle {
+    &--min {
+      left: -12px;
+    }
+
+    &--max {
+      right: -12px;
+    }
+  }
+
+  .price__label {
+    width: 134px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .price {
+    margin-bottom: 32px;
+  }
+}

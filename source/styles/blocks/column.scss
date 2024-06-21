@@ -1,0 +1,11 @@
+@media (min-width: $desktop-width) {
+  .column {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 318px 1011px;
+  }
+
+  .column__left {
+    margin-top: 4px;
+  }
+}

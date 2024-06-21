@@ -68,3 +68,19 @@
     padding: 8px 20px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .filter {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .filter__buttons {
+    margin-top: 9px;
+  }
+
+  .filter__button {
+    width: 100%;
+  }
+}

@@ -30,3 +30,19 @@
     line-height: 64px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .catalog__container {
+    width: 1440px;
+    padding: 100px 40px 117px;
+    margin: 0 auto;
+  }
+
+  .catalog__title {
+    margin-bottom: 36px;
+  }
+
+  .catalog__subtitle {
+    margin-bottom: 4px;
+  }
+}

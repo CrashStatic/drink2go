@@ -8,6 +8,8 @@
 
 .product__card {
   padding: 38px 20px 23px 18px;
+  border-radius: 4px;
+  background-color: #ffffff;
 
   &:not(:last-child) {
     margin-bottom: 20px;
@@ -92,7 +94,6 @@
   }
 
   .product__card {
-    width: 349px;
     padding: 50px 30px 31px;
 
     &:not(:last-child) {
@@ -118,5 +119,29 @@
 
   .product__price {
     margin-left: -2px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .product {
+    margin-bottom: 61px;
+  }
+
+  .product__list {
+    grid-template-columns: repeat(3, 317px);
+  }
+
+  .product__card {
+    padding: 50px 30px 31px;
+
+    :hover,
+    :focus {
+      box-shadow: 0 5px 15px hsla(0, 0%, 0%, 0.15);
+    }
+  }
+
+  .product__description {
+    margin-bottom: 20px;
+    width: 257px;
   }
 }
