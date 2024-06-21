@@ -79,3 +79,44 @@
   line-height: 20px;
   color: #ffffff;
 }
+
+@media (min-width: $tablet-width) {
+  .product {
+    margin-bottom: 70px;
+  }
+
+  .product__list {
+    display: grid;
+    grid-template-columns: repeat(2, 349px);
+    gap: 30px;
+  }
+
+  .product__card {
+    width: 349px;
+    padding: 50px 30px 31px;
+
+    &:not(:last-child) {
+      margin-bottom: 0;
+    }
+  }
+
+  .product__image-container {
+    margin-bottom: 30px;
+  }
+
+  .product__title {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 10px;
+    padding-left: 0;
+  }
+
+  .product__description {
+    padding-left: 0;
+    margin-bottom: 19px;
+  }
+
+  .product__price {
+    margin-left: -2px;
+  }
+}

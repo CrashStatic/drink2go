@@ -47,3 +47,24 @@
     background-color: #593cac;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .filter {
+    display: grid;
+    grid-template-columns: repeat(3, 223px);
+    grid-template-rows: 1fr 40px;
+    gap: 39px 30px;
+    margin-bottom: 41px;
+  }
+
+  .filter__buttons {
+    flex-direction: row;
+    grid-column: 1 / 4;
+    justify-content: center;
+  }
+
+  .filter__button {
+    width: max-content;
+    padding: 8px 20px;
+  }
+}

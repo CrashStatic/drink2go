@@ -106,3 +106,41 @@
     background: #7859cf;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .price {
+    margin-bottom: 0;
+  }
+
+  .price__title {
+    margin-bottom: 30px;
+  }
+
+  .price__scale {
+    width: 223px;
+    margin-bottom: 31px;
+  }
+
+  .price__bar {
+    width: 192px;
+    left: 8px;
+  }
+
+  .price__label {
+    width: 87px;
+
+    &--left::after {
+      left: 107px;
+    }
+  }
+
+  .price__toggle {
+    &--min {
+      left: -8px;
+    }
+
+    &--max {
+      right: -3px;
+    }
+  }
+}

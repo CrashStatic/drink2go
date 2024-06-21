@@ -10,6 +10,7 @@
 }
 
 .pagination__button {
+  font-family: "Montserrat", "Arial", sans-serif;
   width: 40px;
   height: 40px;
   border: none;
@@ -74,5 +75,37 @@
 @media (max-width: $mobile-width) {
   .pagination__button span {
     display: none;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .pagination__list {
+    justify-content: end;
+  }
+
+  .pagination__item:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  .pagination__button {
+    &--prev {
+      width: 91px;
+      background-image: none;
+
+      &:focus,
+      &:hover {
+        background-image: none;
+      }
+    }
+
+    &--next {
+      width: 104px;
+      background-image: none;
+
+      &:focus,
+      &:hover {
+        background-image: none;
+      }
+    }
   }
 }

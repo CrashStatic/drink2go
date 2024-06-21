@@ -60,7 +60,7 @@
   .features__list {
     padding: 0 10px;
     display: grid;
-    grid-template-columns: minmax(339px, 1fr) minmax(339px, 1fr);
+    grid-template-columns: repeat(2, 339px);
     gap: 50px 30px;
   }
 
@@ -75,6 +75,10 @@
     &--speed .features__image-container,
     &--eco .features__image-container {
       margin-top: 4px;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 0;
     }
   }
 

@@ -164,3 +164,9 @@
     background: #bdbdbd;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .selection {
+    margin-bottom: 0;
+  }
+}
