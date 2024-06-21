@@ -46,10 +46,6 @@
     background: linear-gradient(90deg, hsla(256, 55%, 58%, 0.25) 0%, hsla(256, 55%, 58%, 0) 100%);
   }
 
-  &--prev:disabled svg {
-    color: #bdbdbd;
-  }
-
   &--next:hover,
   &--next:focus {
     background: linear-gradient(270deg, #ffffff 0%, hsla(0, 0%, 100%, 0) 100%);
@@ -59,10 +55,22 @@
     background: linear-gradient(270deg, hsla(256, 55%, 58%, 0.25) 0%, hsla(256, 55%, 58%, 0) 100%);
   }
 
-  &--next:disabled svg {
-    color: #bdbdbd;
-  }
+  // &--next:disabled svg {
+  //   color: #bdbdbd;
+  // }
+
+  // &--prev:disabled svg {
+  //   color: #bdbdbd;
+  // }
 }
+
+// .slider__button--disabled {
+//   pointer-events: none;
+
+//   & .slider__button-image {
+//     color: #bdbdbd;
+//   }
+// }
 
 .slider__list {
   @include list;
