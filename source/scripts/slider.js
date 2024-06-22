@@ -10,6 +10,7 @@ const updateSlider = () => {
   slidesElements.forEach((slide, index) => {
     if (index === slideIndex) {
       slide.style.display = 'flex';
+      slide.classList.add('slider__item--active');
     } else {
       slide.style.display = 'none';
     }

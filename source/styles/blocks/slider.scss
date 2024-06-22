@@ -81,7 +81,8 @@
 }
 
 .slider__item--active {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
 .slider__pagination {
@@ -159,6 +160,7 @@
 
   .slider__item--active {
     display: flex;
+    flex-direction: row;
   }
 
   .slider__pagination {
