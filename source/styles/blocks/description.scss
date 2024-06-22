@@ -32,6 +32,7 @@
 
 .description__price-button {
   @include button;
+  padding: 8px 20px;
 
   &:hover,
   &:focus-visible {
@@ -133,5 +134,9 @@
 
   .description__price-new {
     margin-right: 22px;
+  }
+
+  .description__promo {
+    text-align: start;
   }
 }
