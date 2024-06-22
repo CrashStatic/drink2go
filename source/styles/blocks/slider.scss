@@ -48,6 +48,7 @@
 
   &--prev:disabled {
     pointer-events: none;
+
     & svg {
       color: #bdbdbd;
     }
@@ -62,8 +63,9 @@
     background: linear-gradient(270deg, hsla(256, 55%, 58%, 0.25) 0%, hsla(256, 55%, 58%, 0) 100%);
   }
 
-  &--prev:disabled {
+  &--next:disabled {
     pointer-events: none;
+
     & svg {
       color: #bdbdbd;
     }
